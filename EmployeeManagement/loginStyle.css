@@ -1,0 +1,98 @@
+﻿html {
+    background: linear-gradient(lightgray, gray) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+header {
+    display: block;
+    height: 50px;
+    background-color: #8CB7C7;
+    text-align: right;
+    font-style: italic;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+#logo {
+    float: left;
+    clear: left;
+    height: 50px;
+}
+
+#slogan {
+    float: left;
+    height: 50px;
+}
+
+form {
+    border-style: outset;
+    border-color: darkgray;
+    width: 40%;
+    height: 270px;
+    box-shadow: 1px 2px #595959;
+    background: linear-gradient(#8CB7C7,lightgray);
+    margin: auto;
+    margin-top: 180px;
+}
+
+.container {
+    padding: 20px;
+    font-size: large;
+    font-weight: bold;
+    width: 92%;
+    height: 230px;
+    margin-top: 10px;
+}
+
+#supervisor {
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;
+}
+
+#supervisor, .username, .password {
+    display: block;
+    width: 99%;
+    height: 50px;
+}
+
+.left {
+    width: 28%;
+    height: 35px;
+    float: left;
+    text-align: center;
+}
+
+.right {
+    width: 70%;
+    height: 35px;
+    float: right;
+}
+
+#LoginBtn {
+    height: 40px;
+    width: 40%;
+}
+
+#center {
+    text-align: center;
+    height: 50px;
+    padding-top: 30px;
+}
+
+#loginError {
+    text-align: center;
+    color: red;
+    padding-top: 30px;
+    height: 30px;
+    display: block;
+    width: 99%;
+}
